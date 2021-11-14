@@ -6,8 +6,10 @@ import java.util.Scanner;
 // som inneholder main-metoden.
 class Test {
     public static void main(String[] args) {
+
         // Herfra kan man bruke variabelen sc til å lese fra terminalen.
         Scanner sc = new Scanner(System.in);
+
 
         // Scanneren gir oss mange nyttige operasjoner!
         // Man kan sjekke verge seg mot EOFErrors ved å avslutte når man har
@@ -35,7 +37,18 @@ class Test {
         String s = sc.nextLine();
         int s_int = Integer.parseInt(s);
 
-        // Dette fungerer naturligvis også med Double.parseDouble();
+
+
+        // Noen ganger har man behov for å lese inn n heltall, og legge dem i en liste.
+        // Her er en mulig løsning:
+
+        int n = sc.nextInt(); // Leser inn n
+        int[] array = new array[n]; // Oppretter et array med plass til elementene
+
+        for (int i = 0; i < n; i++) { // Kjører en løkke n ganger
+            array[i] = sc.nextInt(); // Fyller arrayet med tallene
+        }
+
 
 
         // Det er god kodeskikk å lukke scanneren når man er ferdig, men det
@@ -43,3 +56,9 @@ class Test {
         sc.close();
     }
 }
+
+
+/* I utgangspunktet trenger du som oftest bare å importe Scanner,
+ * lage en klasse med en tilhørende main-metode, og la Scanner lese
+ * fra System.in, for å komme i gang :)
+ */
