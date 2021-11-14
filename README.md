@@ -4,6 +4,7 @@ Kattis oppgavene i IN2010 Kattis konkurransen 2021
 ## Melde seg på
 
 Meld deg på konkurransen [her](https://open.kattis.com/contests/mzvgmb).
+Trykk på "Join contest" oppe til høyre for å bli med. Etter at du har blitt med, vil knappen skifte tekst til "View my team". Her kan du endre lagnavnet, samt invitere andre medlemmer.
 
 ## Oppgaver 
 
