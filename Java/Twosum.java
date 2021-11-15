@@ -6,7 +6,5 @@ class Twosum {
 
         // Printer summen av to heltall fra terminalen
         System.out.println(sc.nextInt() + sc.nextInt());
-
-        sc.close();
     }
 }
