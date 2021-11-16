@@ -22,4 +22,5 @@ Trykk på "Join contest" oppe til høyre for å bli med. Etter at du har blitt m
 - [Boxes](https://open.kattis.com/problems/boxes)
 - [Pick up sticks](https://open.kattis.com/problems/pickupsticks)
 - [Island hopping](https://open.kattis.com/problems/islandhopping)
+- [Ultra-Quicksort](https://open.kattis.com/problems/ultraquicksort)
 
